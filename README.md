@@ -1,8 +1,8 @@
  Hi, I’m ArttuKauppi im curently studying ICT in the vocational school of keuda. 
 
-I usually code either in C# or python depens on the project.
+I usually code either in C# or python depends on the project.
 
-Contact information
+Contact information:
 
 Arttu.kookoss@gmail.com
 
