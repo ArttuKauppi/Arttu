@@ -1,8 +1,8 @@
- Hi, I’m ArttuKauppi im curently studying ICT in the vocational school of keuda. 
+ Hi, I’m ArttuKauppi I’m 16 years old. Currently i'm studying ICT in the vocational school of Keuda. 
 
 I usually code either in C# or python depends on the project.
 
-Contact information:
+My contact information:
 
 Arttu.kookoss@gmail.com
 
