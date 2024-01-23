@@ -3,5 +3,8 @@
 
 
 Contact information
-Arttu.kauppi@edu.keuda.fi
+Arttu.kookoss@gmail.com
+
+
+
 040 8684699
