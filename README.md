@@ -3,8 +3,8 @@
 I usually code either in C# or python depens on the project.
 
 Contact information
-Arttu.kookoss@gmail.com
 
+Arttu.kookoss@gmail.com
 
 
 040 8684699
