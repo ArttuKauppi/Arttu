@@ -1,4 +1,4 @@
- Hi, I’m ArttuKauppi im curently studying ICT in the vocational school of keuda. My hobbys consist of gaming, going to the gym and swimming.
+ Hi, I’m ArttuKauppi im curently studying ICT in the vocational school of keuda. 
 
 
 
