@@ -1,0 +1,79 @@
+using System;
+
+namespace Olio_esimerkki
+{
+    internal class Program
+    {
+        class Kirjasto
+        {
+            private int erapaiva;
+            private int tyyppi;
+            private string nimi;
+
+            public int Erapaiva() { return erapaiva; }
+            public int Tyyppi() { return tyyppi; }
+            public string Nimi() { return nimi; }
+
+
+
+            public int UusiErapaiva()
+            {
+                Console.WriteLine("");
+                Console.Write("Anna uusi lainauspäivä ? ");
+                erapaiva = int.Parse(Console.ReadLine());
+                return erapaiva;
+            }
+
+
+            public Kirjasto()
+            {
+                erapaiva = 0;
+                tyyppi = 0;
+                nimi = "";
+
+            }
+
+            public Kirjasto(int u_erapaiva, int u_tyyppi, string u_nimi)
+            {
+                erapaiva = u_erapaiva;
+                tyyppi = u_tyyppi;
+                nimi = u_nimi;
+            }
+
+
+            static void Main(string[] args)
+            {
+
+                Console.WriteLine("Arttu kauppi olio ohjelmointi");
+                Console.WriteLine("");
+                Console.WriteLine("kokeillaan olio ohjelmoiniininininin erimerkki");
+                Console.WriteLine("");
+
+                string u_nimi = "Aitta";
+                Kirjasto tallenne = new Kirjasto(30,1,u_nimi);
+
+
+                int ep = tallenne.Erapaiva();
+                int ty =tallenne.Tyyppi();
+                string nm = tallenne.Nimi();
+
+                Console.WriteLine("Eräpäivä on {0}",ep);
+                Console.WriteLine("tyyppi on {0}",ty);
+                Console.WriteLine("nimi on {0}",nm);
+
+
+                ep = tallenne.UusiErapaiva();
+                Console.WriteLine("");
+                Console.WriteLine("uudet arvot oliolla ovat nyt");
+                Console.WriteLine("");
+                Console.WriteLine("Eräpäivä on {0}", ep);
+                Console.WriteLine("tyyppi on {0}", ty);
+                Console.WriteLine("nimi on {0}", nm);
+
+
+
+
+            }
+        }
+    }
+}
